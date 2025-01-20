@@ -1,4 +1,5 @@
 import { Button } from "@heroui/react";
+import RightArrow from "./RightArrow";
 
 export default function Hero() {
 	return (
@@ -13,7 +14,12 @@ export default function Hero() {
 						individuals to seamlessly convert and spend their crypto
 						for everyday purchases.
 					</p>
-					<Button variant="solid" color="primary" radius="full">
+					<Button
+						variant="solid"
+						color="primary"
+						radius="full"
+						endContent={<RightArrow />}
+					>
 						Get Started
 					</Button>
 				</div>

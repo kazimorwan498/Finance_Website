@@ -28,7 +28,7 @@ export default function NavbarArea() {
 							color="primary"
 							variant="bordered"
 							radius="full"
-							className="font-bold"
+							className="font-bold text-sm sm:text-base"
 						>
 							Contact
 						</Button>
