@@ -5,8 +5,8 @@ import debitCard from "../assets/debit-card.svg";
 export default function DebitCard() {
 	return (
 		<>
-			<section className="flex flex-col-reverse sm:flex-row gap-10 lg:gap-2.5 xl:gap-8 justify-between items-center mt-10 lg:mt-28">
-				<div className="space-y-3 sm:space-y-6 w-full">
+			<section className="flex flex-col-reverse sm:flex-row gap-10 lg:gap-2.5 xl:gap-8 justify-between items-center mt-20 lg:mt-28">
+				<div className="space-y-6 w-full">
 					<h2 className="font-bold leading-tight text-2xl lg:text-3xl">
 						Wern Debit Card
 					</h2>

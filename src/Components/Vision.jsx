@@ -1,7 +1,7 @@
 export default function Vision() {
 	return (
 		<>
-			<section className="bg-[rgb(35,38,41)] py-4 sm:py-8 px-5 rounded-xl space-y-2 text-center mt-5 lg:mt-20">
+			<section className="bg-[rgb(35,38,41)] py-4 sm:py-8 px-5 rounded-xl space-y-2 text-center mt-20 lg:mt-20">
 				<h3 className="font-bold text-lg sm:text-xl lg:text-2xl xl:text-3xl">
 					Wern&apos;s Vision
 				</h3>

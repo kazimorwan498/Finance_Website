@@ -23,14 +23,14 @@ export default function Offer() {
 
 	return (
 		<>
-			<section className="space-y-12 mt-5 lg:mt-20">
+			<section className="space-y-12 mt-20 lg:mt-20">
 				<h2 className="font-bold leading-tight text-center text-2xl lg:text-3xl">
 					What do we offer?
 				</h2>
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 					{OfferList.map((item, index) => (
 						<div key={index} className="flex gap-4">
-							<div className="bg-[rgb(61,63,84)] flex items-center justify-center max-h-14 max-w-14 min-h-14 min-w-14 rounded-3xl size-14">
+							<div className="bg-[rgb(61,63,84)] flex items-center justify-center max-h-14 max-w-14 min-h-14 min-w-14 rounded-2xl size-14">
 								<img className="size-6" src={item.img} alt={item.img} />
 							</div>
 							<div>
