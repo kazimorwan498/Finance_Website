@@ -15,7 +15,7 @@ export default function NavbarArea() {
 			<Navbar
 				shouldHideOnScroll
 				isBlurred={false}
-				className="bg-[rgb(16,5,32)] w-full"
+				className="bg-transparent w-full"
 				maxWidth="2xl"
 			>
 				<NavbarBrand>
@@ -28,7 +28,7 @@ export default function NavbarArea() {
 							color="primary"
 							variant="bordered"
 							radius="full"
-                            className="font-bold"
+							className="font-bold"
 						>
 							Contact
 						</Button>
