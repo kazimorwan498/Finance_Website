@@ -1,4 +1,5 @@
 import "./App.css";
+import DebitCard from "./Components/DebitCard";
 import Hero from "./Components/Hero";
 import NavbarArea from "./Components/Navbar";
 import Offer from "./Components/Offer";
@@ -13,6 +14,7 @@ function App() {
 					<Hero />
 					<Vision />
 					<Offer />
+					<DebitCard />
 				</div>
 			</main>
 		</>
