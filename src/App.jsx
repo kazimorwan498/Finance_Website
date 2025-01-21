@@ -1,10 +1,11 @@
 import "./App.css";
-import DebitCard from "./Components/DebitCard";
 import Hero from "./Components/Hero";
 import NavbarArea from "./Components/Navbar";
 import Offer from "./Components/Offer";
 import PerfectCard from "./Components/PerfectCard";
 import Vision from "./Components/Vision";
+import DebitCard from "./Components/DebitCard";
+import Feedback from "./Components/Feedback";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 					<Offer />
 					<DebitCard />
 					<PerfectCard />
+					<Feedback />
 				</div>
 			</main>
 		</>
