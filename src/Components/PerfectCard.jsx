@@ -1,5 +1,5 @@
 import { Button } from "@heroui/react";
-import perfectCard from "../assets/perfect-card.svg";
+import perfectCard from "../assets/perfect-card2.svg";
 
 export default function PerfectCard() {
 	return (

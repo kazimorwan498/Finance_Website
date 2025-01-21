@@ -6,6 +6,7 @@ import PerfectCard from "./Components/PerfectCard";
 import Vision from "./Components/Vision";
 import DebitCard from "./Components/DebitCard";
 import Feedback from "./Components/Feedback";
+import FAQ from "./Components/FAQ";
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 					<DebitCard />
 					<PerfectCard />
 					<Feedback />
+					<FAQ />
 				</div>
 			</main>
 		</>
