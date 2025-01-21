@@ -34,7 +34,7 @@ export default function Feedback() {
 				{UserData.map((item, index) => (
 					<div
 						key={index.id}
-						className="space-y-8 bg-[rgb(39,50,47,0.25)] border-2 border-[#27322F] backdrop-blur-sm px-6 py-6 sm:py-14 rounded-2xl shadow-md"
+						className="space-y-8 bg-[rgb(39,50,47,0.25)] border-2 border-[rgb(39,50,47)] backdrop-blur-sm px-6 py-6 sm:py-14 rounded-2xl shadow-md"
 					>
 						<div className="bg-[rgb(61,63,84)] flex items-center justify-center max-h-14 max-w-14 min-h-14 min-w-14 rounded-full size-14">
 							<img src={Quote} alt="quote.svg" />

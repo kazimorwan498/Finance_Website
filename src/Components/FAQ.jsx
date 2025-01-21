@@ -35,7 +35,7 @@ export default function FAQ() {
 	return (
 		<>
 			<section className="flex flex-col gap-10 lg:gap-2.5 xl:gap-8 mt-20 lg:mt-28">
-				<h2 className="font-bold leading-tight text-2xl lg:text-3xl">
+				<h2 className="font-bold leading-tight text-2xl lg:text-3xl text-center">
 					FAQs
 				</h2>
 

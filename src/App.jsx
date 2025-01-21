@@ -7,6 +7,7 @@ import Vision from "./Components/Vision";
 import DebitCard from "./Components/DebitCard";
 import Feedback from "./Components/Feedback";
 import FAQ from "./Components/FAQ";
+import Footer from "./Components/Footer";
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 					<Feedback />
 					<FAQ />
 				</div>
+				<Footer />
 			</main>
 		</>
 	);
