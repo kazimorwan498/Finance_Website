@@ -1,6 +1,6 @@
 import "./App.css";
-import Hero from "./Components/Hero";
 import NavbarArea from "./Components/Navbar";
+import Hero from "./Components/Hero";
 import Offer from "./Components/Offer";
 import PerfectCard from "./Components/PerfectCard";
 import Vision from "./Components/Vision";
